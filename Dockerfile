@@ -10,3 +10,4 @@ COPY . $SOURCE
 WORKDIR $SOURCE/cmd/gke-info
 RUN go build -o gke-info
 CMD ./gke-info
+#test
